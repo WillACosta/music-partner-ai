@@ -1,15 +1,13 @@
-import { Theme } from '@radix-ui/themes'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 
-import '@radix-ui/themes/styles.css'
 import './globals.css'
 
 const appFont = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Natural Language Processing with Python - AI',
-  description: 'Learn how to use machine learning concepts with Python.',
+  title: 'Music Partner AI',
+  description: 'Explore your music library with the power of gen-AI.',
 }
 
 export default function RootLayout({
@@ -19,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${appFont.className}`}>
-        <Theme hasBackground={false}>{children}</Theme>
+      <body className={appFont.className}>
+        <main className='min-h-screen container py-10 px-5'>{children}</main>
       </body>
     </html>
   )

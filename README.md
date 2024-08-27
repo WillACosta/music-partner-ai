@@ -1,4 +1,4 @@
-### @music-partner
+### @music-partner-ai
 
 This application is a showcase for using generative AI models to leverage user experience and integrate it with our
 projects, we use [StackSpot AI](https://www.stackspot.com/en/) with the aid of [Custom Agent](https://ai.stackspot.com/docs/agents/create-agents) feature to train and specialize `Music Partner` in our own music library.

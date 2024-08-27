@@ -14,7 +14,7 @@
 
 @layer components {
   body {
-    @apply text-black bg-app-gradient-2;
+    @apply text-white bg-primary text-xl;
   }
 }
 

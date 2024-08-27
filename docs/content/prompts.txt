@@ -1,0 +1,17 @@
+List all my music library ordered by author name.
+
+What are my favorite songs?
+
+List my favorite songs in a JSON format ordered by name, the JSON should be formatted like this:
+
+```json
+  {
+    "track": "Burning Bright",
+    "album": "Leave a Whisper",
+    "artist": "Shinedown"
+  }
+```
+
+Explain the meaning of "Curvas do Rio - Xangai", in English US.
+
+What are all my Crossfade musics? I want a bullet list

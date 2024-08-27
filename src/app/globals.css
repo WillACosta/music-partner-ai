@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #ffffff;
+  }
+}
+
+@layer components {
+  body {
+    @apply text-black bg-app-gradient-2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
